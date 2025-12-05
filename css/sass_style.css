@@ -968,6 +968,7 @@ body {
     }
 
     .footer .logo{
+      max-width:100%
       padding: 20px 0;
     }
     .footer p{
@@ -1117,4 +1118,5 @@ body {
         /* grid-column: 1 / -1;  */
         /* растягиваем кнопку на всю ширину */
       }
+
     }
