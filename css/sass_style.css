@@ -495,7 +495,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .top_title{
-    font-size:36px;
+    font-size:36px !important;
   }
 
   .footer .logo{
@@ -1127,5 +1127,6 @@ body {
       }
 
     }
+
 
 
