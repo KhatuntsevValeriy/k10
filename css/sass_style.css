@@ -494,13 +494,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .top_title{
-    font-size:36px !important;
-  }
-
-  .footer .logo{
-    max-width:80%;
-  }
   .investment-block {
     padding: 30px 20px;  /* Уменьшаем отступы на меньших экранах */
     max-width: 100%;  /* Блок будет занимать всю ширину на мобильных устройствах */
@@ -925,6 +918,8 @@ body {
     }
 
     @media (max-width: 768px) {
+
+
       .container {
         flex-direction: column;
         text-align: center;
@@ -933,6 +928,10 @@ body {
 
       .title {
         font-size: 36px;
+      }
+
+      .top_title{
+        font-size: 36px !important;
       }
 
       .form-wrapper {
@@ -975,7 +974,7 @@ body {
     }
 
     .footer .logo{
-      max-width:100%
+      max-width: 80%;
       padding: 20px 0;
     }
     .footer p{
@@ -1125,8 +1124,4 @@ body {
         /* grid-column: 1 / -1;  */
         /* растягиваем кнопку на всю ширину */
       }
-
     }
-
-
-
