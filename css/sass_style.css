@@ -499,7 +499,7 @@ body {
   }
 
   .footer .logo{
-    max-width:80%
+    max-width:80%;
   }
   .investment-block {
     padding: 30px 20px;  /* Уменьшаем отступы на меньших экранах */
@@ -1127,4 +1127,5 @@ body {
       }
 
     }
+
 
